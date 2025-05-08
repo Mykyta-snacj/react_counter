@@ -24,11 +24,11 @@ export class App extends React.Component<{}, State> {
 
   // DON'T change the code below
   increase = () => {
-    this.addOne();
-
     if (this.state.count % 5 === 0) {
       this.add100();
     }
+
+    this.addOne();
   };
 
   render() {
